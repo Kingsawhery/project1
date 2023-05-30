@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner {
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  height: 650px;
+  padding: 20px;
+}
+
+.banner .about-signIn {
+  height: 200px;
+  width: 100%;
+  font-size: 25px;
+  float: right;
+}
+
+.banner .about-signIn a {
+  text-decoration: none;
+}
+
+.banner .about-signIn .sign,
+.banner .about-signIn .about {
+  float: right;
+  padding: 20px 30px;
+  color: #4d4d4d;
+}
+
+.banner .about-signIn .sign {
+  margin-right: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+}
+
+.banner .logo {
+  text-align: center;
+}
+
+.banner .logo img {
+  width: 20%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner .left,
+.banner .center,
+.banner .right {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 33%;
+  transform: translateY(50px);
+}
+
+.banner .left span,
+.banner .center span,
+.banner .right span {
+  display: block;
+  font-size: 25px;
+}
+
+.banner .left img,
+.banner .center img,
+.banner .right img {
+  width: 50px;
+  height: 50px;
+}
+
+.banner .par,
+.banner .action {
+  transform: translateY(80px);
+  text-align: center;
+}
+
+.banner .action {
+  padding: 20px;
+}
+
+.banner .action button {
+  border-radius: 30px;
+  padding: 15px 25px;
+  color: black;
+  background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d);
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=custom.css.map */
